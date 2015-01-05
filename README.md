@@ -129,6 +129,8 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 
 ###meta标签
 
+meta标签大全 <http://segmentfault.com/blog/ciaocc/1190000002407912>
+
 meta标签，这些meta标签在开发webapp时起到非常重要的作用
 
 	<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport" />
@@ -591,6 +593,9 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 
 这里有更详细的更多的选择<http://www.zhouwenbin.com/%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/> 来自周文彬的博客
 
+
+###移动端实现标题文字截断
+<http://www.75team.com/archives/611>
  
 ###处理 Retina 双倍屏幕
  
@@ -790,6 +795,9 @@ ios的safari提供一种“隐私模式”，如果你的webapp考虑兼容这�
 	addEventListener('load', function(){
 			setTimeout(function(){ window.scrollTo(0, 1); }, 100);
 	});
+
+###ios7 可以通过meta标签的minimal来隐藏地址栏了
+<http://darkblue.sdf.org/weblog/ios-7-dot-1-mobile-safari-minimal-ui.html>
 
 ###判断是否为iPhone：
 
